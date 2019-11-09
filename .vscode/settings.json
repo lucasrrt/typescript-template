@@ -1,0 +1,16 @@
+{
+  "saveAndRun": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "yarn start",
+        "useShortcut": true
+      }
+    ]
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    {"language": "typescript", "autoFix": true}
+  ]
+}
